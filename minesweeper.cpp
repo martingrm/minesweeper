@@ -291,7 +291,7 @@ void inicialization(char gameboard[RMAX][CMAX], char gameboard2show[RMAX][CMAX],
 void verifyRound(char gameboard[RMAX][CMAX], char gameboard2show[RMAX][CMAX], int userR, int userC, bool &lost){
     gameboard2show[userR][userC] = gameboard[userR][userC];
     if (gameboard[userR][userC]=='*') {
-        lost = true;
+
         display(gameboard2show);
     }else{
         lost = false;
