@@ -172,7 +172,7 @@ void inicialization(char gameboard[RMAX][CMAX], char gameboard2show[RMAX][CMAX],
     }
     
     
-    while (k<10) {// Places 10 mines in ten diffrent random positions.
+    while (k<12) {// Places 10 mines in ten diffrent random positions.
         
         r1 = rand()%8+1;
         c1 = rand()%8+1;
