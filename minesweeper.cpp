@@ -2,7 +2,7 @@
 //  *** MINESWEEPER ***
 //  -- Concurso Programacion, Ejercicio 2 --
 //  By Martín García-Ripoll Muñoz, Lucas Gil Melby, Quico Llinares Llorens & Gonzalo Molina Gallego  (Grupo ARA)
-//  Copyright© 2014. All rights reserved.
+//  Copyright© 2014. All rights reserved!!
 //
 //
 
@@ -91,7 +91,7 @@ int main(){
     
     // Menu.
     do {
-        cout<<"Main Menu"<<endl<<endl;
+        cout<<"-- Main Menu --"<<endl<<endl;
         cout<<"1. Single Player"<<endl;
         cout<<"2. One on One (Multiplayer)"<<endl;
         cout<<"3. Instructions"<<endl;
@@ -101,7 +101,7 @@ int main(){
             cout<<"Introduce an option: "<<endl;
             cin>>opt;
             if (opt<1 || opt>4) {
-                cout<<"\033[0;" << 31 << "mERROR. Incorrect option.\033[0m"<< " "<<endl;
+                cout<<"\031[0;" << 31 << "mERROR. Incorrect option.\033[0m"<< " "<<endl;
             }
         }while(opt<1 || opt>4);
         
