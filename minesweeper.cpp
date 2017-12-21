@@ -66,7 +66,7 @@ int main(){
         cout<<" ";
     }
     
-    cout<<"| MINESWEEPER |"<<endl;
+    cout<<"| BUSCAMINAS |"<<endl;
     
     for (o=0; o<18; o++) {
         cout<<" ";
